@@ -25,28 +25,8 @@ Sau đó truy cập đường dẫn http://127.0.0.1:7860 trên trình duyệt.
 - demo: chứa phần demo cho bài toán
 
 ---
-# 3. Giới thiệu đề tài
 
-Trong thực tế, một câu đánh giá có thể chứa nhiều cảm xúc khác nhau đối với từng khía cạnh.
-
-Ví dụ:
-
-> "Đồ ăn ngon nhưng phục vụ chậm"
-
-Phân tích đúng:
-- FOOD → Positive
-- SERVICE → Negative
-
----
-
-### Mục tiêu bài toán
-- Xác định các **aspect (khía cạnh)** trong câu
-- Gán **sentiment (cảm xúc)** cho từng aspect
-- Xử lý ngôn ngữ tiếng Việt trong domain nhà hàng
-
----
-
-# 4. Dataset sử dụng
+# 3. Dataset sử dụng
 
 ## VLSP 2018 ABSA Restaurant Dataset
 
@@ -62,7 +42,7 @@ Phân tích đúng:
 
 ---
 
-# 5. Kiến trúc mô hình
+# 4. Kiến trúc mô hình
 
 Dự án sử dụng mô hình kết hợp 3 thành phần:
 
