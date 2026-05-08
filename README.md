@@ -30,8 +30,8 @@ Ví dụ:
 
 ## 📁 VLSP 2018 ABSA Restaurant Dataset
 
-Dataset được sử dụng từ cuộc thi **VLSP 2018 - Aspect Based Sentiment Analysis tiếng Việt**.
-Link tải Dataset: https://github.com/ds4v/absa-vlsp-2018/tree/main/datasets
+- Dataset được sử dụng từ cuộc thi **VLSP 2018 - Aspect Based Sentiment Analysis tiếng Việt**.
+- Link tải Dataset: https://github.com/ds4v/absa-vlsp-2018/tree/main/datasets
 
 ---
 
