@@ -1,0 +1,10 @@
+pandas
+gradio
+unicodedata
+underthesea
+transformers
+torch
+torch.nn
+TorchCRF
+tqdm
+torch.optim
