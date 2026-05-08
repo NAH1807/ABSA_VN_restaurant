@@ -1,4 +1,4 @@
-# 🇻🇳 ABSA Vietnamese Restaurant Reviews
+# ABSA Vietnamese Restaurant Reviews
 
 Dự án **Aspect-Based Sentiment Analysis (ABSA)** cho tiếng Việt trong lĩnh vực đánh giá nhà hàng.  
 Mục tiêu là phân tích cảm xúc theo từng khía cạnh (aspect) thay vì chỉ phân loại cảm xúc tổng thể của câu.
