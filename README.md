@@ -28,7 +28,6 @@ Dataset được thu thập từ các đánh giá thực tế của khách hàng
 - **Positive** (Tích cực) 😊: Khách hàng thích, hài lòng
 - **Negative** (Tiêu cực) 😞: Khách hàng không hài lòng, có than phiền
 - **Neutral** (Trung tính) 😐: Mô tả khách quan, không có cảm xúc rõ rệt
-- 
 
 ### Công nghệ Sử Dụng
 - **Python 3.8+**
