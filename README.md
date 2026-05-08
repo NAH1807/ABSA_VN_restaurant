@@ -1,21 +1,17 @@
 # Phân Tích Cảm Xúc Theo Khía Cạnh (ABSA) cho Tiếng Việt
-
 Mục tiêu là phân tích cảm xúc theo từng khía cạnh (aspect) thay vì chỉ phân loại cảm xúc tổng thể của câu trong lĩnh vực đánh giá nhà hàng. 
 
 ---
-
 # 1. Hướng dẫn cài đặt và sử dụng: 
-## Cài đặt môi trường:
-
+**Cài đặt môi trường:**
 ```bash
 pip install -r requirements.txt
 ```
 
-## Chạy demo:
+**Chạy demo:**
 ```bash
 python demo.py 
 ```
-
 Sau đó truy cập đường dẫn http://127.0.0.1:7860 trên trình duyệt.
 
 ---
@@ -27,52 +23,37 @@ Sau đó truy cập đường dẫn http://127.0.0.1:7860 trên trình duyệt.
 ---
 
 # 3. Dataset sử dụng
-
-## VLSP 2018 ABSA Restaurant Dataset
-
+**VLSP 2018 ABSA Restaurant Dataset**
 - Dataset được sử dụng từ cuộc thi **VLSP 2018 - Aspect Based Sentiment Analysis tiếng Việt**.
 - Link tải Dataset: https://github.com/ds4v/absa-vlsp-2018/tree/main/datasets
 
----
-
-### Đặc điểm dataset:
+**Đặc điểm dataset:**
 - Ngôn ngữ: Tiếng Việt
 - Domain: Nhà hàng (restaurant reviews)
 - Dạng dữ liệu: câu + nhãn aspect + sentiment
 
 ---
-
 # 4. Kiến trúc mô hình
-
 Dự án sử dụng mô hình kết hợp 3 thành phần:
 
----
-
-## PhoBERT (Encoder chính)
-
+**PhoBERT (Encoder chính)**
 - Mô hình Transformer pretrained cho tiếng Việt
 - Hiểu ngữ nghĩa và ngữ cảnh tốt hơn BERT đa ngôn ngữ
 - Làm embedding đầu vào cho mô hình
 
----
-
-## BiLSTM (Sequence Modeling)
+**BiLSTM (Sequence Modeling)**
 
 - Học quan hệ tuần tự giữa các token
 - Kết hợp thông tin trái → phải và phải → trái
 - Giúp cải thiện việc nhận diện aspect trong câu
 
----
-
-## CRF (Conditional Random Field)
+**CRF (Conditional Random Field)**
 
 - Giải mã chuỗi nhãn BIO
 - Đảm bảo output hợp lệ (không sai cấu trúc tag)
 - Tối ưu nhãn cuối cùng theo toàn chuỗi
 
----
-
-## Kiến trúc tổng thể
+**Kiến trúc tổng thể**
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/e8e70e3d-ff77-4e7f-8f71-bf9890f8e685" />
 
 
