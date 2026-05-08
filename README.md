@@ -73,7 +73,7 @@ Dự án sử dụng mô hình kết hợp 3 thành phần:
 ---
 
 ## Kiến trúc tổng thể
-<img width="857" height="522" alt="image" src="https://github.com/user-attachments/assets/e8e70e3d-ff77-4e7f-8f71-bf9890f8e685" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/e8e70e3d-ff77-4e7f-8f71-bf9890f8e685" />
 
 
 
