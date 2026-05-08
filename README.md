@@ -59,7 +59,6 @@ Dataset được sử dụng từ cuộc thi **VLSP 2018 - Aspect Based Sentimen
 ---
 # Cài đặt thư viện: 
 pip install -r requirement.txt
----
 
 # 🧠 3. Kiến trúc mô hình
 
