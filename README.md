@@ -57,7 +57,6 @@ Phân tích đúng:
 - Neutral
 
 ---
----
 
 # 3. Kiến trúc mô hình
 
@@ -92,7 +91,15 @@ Dự án sử dụng mô hình kết hợp 3 thành phần:
 ## Kiến trúc tổng thể
 <img width="857" height="522" alt="image" src="https://github.com/user-attachments/assets/e8e70e3d-ff77-4e7f-8f71-bf9890f8e685" />
 
+---
 # 4. Cài đặt thư viện: 
 pip install -r requirement.txt
+
+---
+
+# 5. Cấu trúc thư mục:
+data: chứa dataset (train, dev, test) và các file sau khi đã xử lí dữ liệu
+src: chưa file code model, train model.
+demo: chứa phần demo cho bài toán
 
 
